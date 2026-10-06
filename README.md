@@ -38,7 +38,7 @@
 ### macOS и Linux
 
 ```bash
-git clone https://github.com/USERNAME/visualpetri-mcp.git
+git clone https://github.com/everlnggg/visualpetri-mcp.git
 cd visualpetri-mcp
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
@@ -49,7 +49,7 @@ chmod +x run_server.sh
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/USERNAME/visualpetri-mcp.git
+git clone https://github.com/everlnggg/visualpetri-mcp.git
 cd visualpetri-mcp
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
