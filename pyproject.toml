@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visualpetri-mcp"
+version = "1.0.0"
+description = "MCP server for Petri-net attacker scenarios, reachability analysis and report-ready exports"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+
+[project.scripts]
+visualpetri-mcp = "petri_mcp.server:main"
+petri-cli = "petri_mcp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["petri_mcp*"]
+

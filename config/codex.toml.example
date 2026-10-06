@@ -1,0 +1,7 @@
+[mcp_servers.visualpetri]
+command = "/ABSOLUTE/PATH/TO/petri-mcp/run_server.sh"
+
+[mcp_servers.visualpetri.env]
+PETRI_MCP_HOME = "/ABSOLUTE/PATH/TO/petri-mcp/workspace"
+VISUALPETRI_EXE = "/ABSOLUTE/PATH/TO/VisualPetri.exe"
+

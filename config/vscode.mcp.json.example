@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "visualpetri": {
+      "type": "stdio",
+      "command": "/ABSOLUTE/PATH/visualpetri-mcp/.venv/bin/python",
+      "args": ["-m", "petri_mcp.server"],
+      "env": {
+        "PETRI_MCP_HOME": "/ABSOLUTE/PATH/visualpetri-mcp/workspace"
+      }
+    }
+  }
+}
