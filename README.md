@@ -35,6 +35,8 @@
 
 Нужны Git и Python 3.10 или новее.
 
+Репозиторий приватный. Чтобы дать другу доступ, откройте на GitHub **Settings → Collaborators → Add people** и укажите его GitHub-логин. После принятия приглашения он сможет выполнить обычный `git clone` по инструкции ниже. Если сделать репозиторий публичным в **Settings → General → Change repository visibility**, приглашения не понадобятся.
+
 ### macOS и Linux
 
 ```bash
