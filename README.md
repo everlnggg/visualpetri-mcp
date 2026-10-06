@@ -180,15 +180,15 @@ render_petri_net, render_reachability_graph, render_attack_tree и generate_repo
 ## Локальная демонстрация без MCP-клиента
 
 ```bash
-.venv/bin/python -m petri_mcp.cli demo \
-  --model examples/insider_attack.json \
-  --output output/demo
+.venv/bin/python -m petri_mcp.cli --root workspace create examples/insider_attack.json
+.venv/bin/python -m petri_mcp.cli --root workspace export insider_attack_demo output/demo
 ```
 
 На Windows:
 
 ```powershell
-.\.venv\Scripts\python.exe -m petri_mcp.cli demo --model examples\insider_attack.json --output output\demo
+.\.venv\Scripts\python.exe -m petri_mcp.cli --root workspace create examples\insider_attack.json
+.\.venv\Scripts\python.exe -m petri_mcp.cli --root workspace export insider_attack_demo output\demo
 ```
 
 ## Тесты
